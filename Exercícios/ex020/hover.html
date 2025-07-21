@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes css</title>
+    <style>
+        div {
+            background-color: lightblue;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            
+        }
+        
+        DIV > P {
+            display: none;
+        }
+
+
+
+        div:hover > p {
+            background-color: red;
+            scale: 1.1;
+            display: block;
+            color: white;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>escondido</h1>
+    <div id="01">
+        Passe o ponteirto
+        <p>ACHHHOOOOO O PARAGRAFO</p>
+
+    </div>
+   
+</body>
+</html>
